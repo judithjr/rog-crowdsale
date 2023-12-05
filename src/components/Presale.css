@@ -1,0 +1,13 @@
+/* Add these styles to your CSS/SCSS file */
+
+.countdown-timer {
+    font-family: 'Courier New', monospace; /* Use a monospaced font */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #333; /* Set the text color */
+    background-color: rgb(241, 147, 59); /* Set the background color */
+    padding: 10px; /* Adjust padding as needed */
+    border: 2px solid #333; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    display: inline-block; /* Ensure the background color covers the entire content */
+}

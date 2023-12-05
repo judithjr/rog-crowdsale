@@ -4,9 +4,9 @@
 
 body {
     background: rgb(0,0,0);
-    background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(79,47,1,1) 52%, rgba(255,145,0,1) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(79,47,1,1) 52%, rgba(255,145,0,1) 100%);
-    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(79,47,1,1) 52%, rgba(255,145,0,1) 100%);
+    background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 0%, #0b0b0a 52%, #FEF200 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%, #0a0a0a 52%, #FEF200 100%);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, #10100f 52%, #FEF200 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ff9100",GradientType=1);
     color: white;
 }

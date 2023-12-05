@@ -4,6 +4,12 @@ import ShapeDivider from "./components/ShapeDivider";
 import FooterComponent from './components/Footer';
 import { useContext, useEffect } from "react";
 import { GlobalProvider } from "./context/GlobalContext";
+import TokenomicsMetrics from "./components/TokenomicsMetrics";
+
+
+
+
+
 
 function App() {
   useEffect(() => {
@@ -19,6 +25,7 @@ function App() {
           <HeaderComponent />
           <ShapeDivider />
           <Presale />
+          <TokenomicsMetrics/>
         </div>
       </div>
       <FooterComponent />
